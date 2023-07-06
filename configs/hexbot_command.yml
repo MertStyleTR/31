@@ -1,0 +1,82 @@
+HexBot:
+  Admin:
+    Stop: 
+      Name: "stop"
+      Description: "Stop the attacks in progress!"
+      Category: 
+        Name: "💥 Stress Service"
+        Description: "Commands with the server attack category!"
+      Cooldowns: 60
+      Role: Admin # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+    Update: 
+      Name: "update"
+      Description: "Updated list of proxies for attack!"
+      Category: 
+        Name: "💥 Stress Service"
+        Description: "Commands with the server attack category!"
+      Cooldowns: 60
+      Role: Admin # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+
+  Basic: 
+    Whois: 
+      Name: "whois"
+      Description: "Make a query for a domain name!"
+      Category: 
+        Name: "🔍 Utils Service"
+        Description: "Commonly used bot commands!"
+      Cooldowns: 30
+      Role: Basic # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+    Crash: 
+      Name: "crash"
+      Description: "Send powerful attacks to the server!"
+      Category: 
+        Name: "💥 Stress Service"
+        Description: "Commands with the server attack category!"
+      Cooldowns: 30     
+      Role: Basic # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+    Protocols: 
+      Name: "protocols"
+      Description: "Show a list of minecraft version code!"
+      Category: 
+        Name: "💥 Stress Service"
+        Description: "Commands with the server attack category!"
+      Cooldowns: 30
+      Role: Basic # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+    Methods: 
+      Name: "methods"
+      Description: "Show a list of methods for crashing!"
+      Category: 
+        Name: "💥 Stress Service"
+        Description: "Commands with the server attack category!"
+      Cooldowns: 30
+      Role: Basic # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+    Resolver: 
+      Name: "resolver"
+      Description: "Check the server's information!"
+      Category: 
+        Name: "🔍 Utils Service"
+        Description: "Commonly used bot commands!"
+      Cooldowns: 30
+      Role: Basic # Admin, Premium, Basic
+      Options:
+        Enabled: true
+        OwnerOnly: false
+   
